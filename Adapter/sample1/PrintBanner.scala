@@ -3,7 +3,7 @@ class PrintBanner(s: String) extends Banner(s) with Print {
     showWithParen()
   }
 
-  def printStrong = {
+  def printStrong() = {
     showWithAster()
   }
 }
