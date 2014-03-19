@@ -16,7 +16,7 @@ class StringDisplayImpl(s: String) extends DisplayImpl {
 
   private def printLine() {
     print("+")
-    for ( i <- 0 to width - 1 ) {
+    for ( i <- 0 until width) {
       print("-")
     }
     println("+")
